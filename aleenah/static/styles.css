@@ -1,0 +1,141 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #BDE0FE; /* Light Blue */
+    color: #4D4D4D; /* Neutral Dark Gray */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+/* Header and Titles */
+h2, h3 {
+    color: #CDB4DB; /* Light Purple */
+    margin: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 2px #A2D2FF; /* Sky Blue Shadow */
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* Forms */
+form {
+    background: #FFC8DD; /* Soft Pink */
+    border: 2px solid #FFAFCC; /* Bright Pink */
+    border-radius: 15px;
+    padding: 20px;
+    width: 350px;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #CDB4DB; /* Light Purple */
+    border-radius: 8px;
+    background: #ffffff;
+    color: #4D4D4D;
+}
+
+input:focus {
+    border-color: #A2D2FF; /* Sky Blue */
+    outline: none;
+}
+
+button {
+    background: #FFAFCC; /* Bright Pink */
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #CDB4DB; /* Light Purple */
+    transform: scale(1.05);
+}
+
+/* Links */
+a {
+    color: #CDB4DB; /* Light Purple */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FFAFCC; /* Bright Pink */
+    text-decoration: underline;
+}
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+    background: #A2D2FF; /* Sky Blue */
+    color: #4D4D4D;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #CDB4DB; /* Light Purple */
+}
+
+table th {
+    background: #FFC8DD; /* Soft Pink */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background: #ffffff; /* Alternating row colors */
+}
+
+/* Buttons in Table */
+.action-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    background: #FFAFCC; /* Bright Pink */
+    color: #ffffff;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.3s ease;
+}
+
+.action-btn:hover {
+    background: #CDB4DB; /* Light Purple */
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    background: #CDB4DB; /* Light Purple */
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1);
+}
